@@ -122,45 +122,45 @@ sources:
             description: Link of the template app for iphone
 
       - name: client_performance_ads
-          description: Each record in this table reflects a version of a Facebook creative.
-          columns:
-            - name: _fivetran_id
-              description: Unique record identifier
-            - name: ad_id
-              description: The ID of the ad the report relates to.
-            - name: date
-              description: URL destination of Facebook dynamic ads.
-            - name: _fivetran_synced
-              description: Unique ID for an ad creative.
-            - name: account_currency
-              description: Ad account ID for the account this ad creative belongs to.
-            - name: account_id
-              description: Name of this ad creative as seen in the ad account's library.
-            - name: account_name
-              description: A set of query string parameters which will replace or be appended to urls clicked from page post ads, message of the post, and canvas app install creatives only.
-            - name: ad_name
-              description: "{{ doc('_fivetran_synced') }}"
-            - name: adset_id
-              description: URL destination of Facebook dynamic ads.
-            - name: adset_name
-              description: Link to the asset feed spec
-            - name: campaign_id
-              description: Link of the object story child attachments
-            - name: campaign_name
-              description: Link of the object story caption
-            - name: clicks
-              description: Link of the object story description
-            - name: impression_device
-              description: Link of the object story link
-            - name: impressions
-              description: Link of the object story message
-            - name: inline_link_clicks
-              description: Link of the object story spec for ios
-            - name: platform_position
-              description: Link of the template app spec for ipad
-            - name: publisher_platform
-              description: Link of the template app for android
-            - name: spend
-              description: Link of the template app for iphone
-            - name: unique_clicks
-              description: Link of the template app for iphone
+        description: Each record in this table reflects a version of a Facebook creative.
+        columns:
+          - name: _fivetran_id
+            description: Unique record identifier
+          - name: ad_id
+            description: The ID of the ad the report relates to.
+          - name: date
+            description: URL destination of Facebook dynamic ads.
+          - name: _fivetran_synced
+            description: Unique ID for an ad creative.
+          - name: account_currency
+            description: Ad account ID for the account this ad creative belongs to.
+          - name: account_id
+            description: Name of this ad creative as seen in the ad account's library.
+          - name: account_name
+            description: A set of query string parameters which will replace or be appended to urls clicked from page post ads, message of the post, and canvas app install creatives only.
+          - name: ad_name
+            description: "{{ doc('_fivetran_synced') }}"
+          - name: adset_id
+            description: URL destination of Facebook dynamic ads.
+          - name: adset_name
+            description: Link to the asset feed spec
+          - name: campaign_id
+            description: Link of the object story child attachments
+          - name: campaign_name
+            description: Link of the object story caption
+          - name: clicks
+            description: Link of the object story description
+          - name: impression_device
+            description: Link of the object story link
+          - name: impressions
+            description: Link of the object story message
+          - name: inline_link_clicks
+            description: Link of the object story spec for ios
+          - name: platform_position
+            description: Link of the template app spec for ipad
+          - name: publisher_platform
+            description: Link of the template app for android
+          - name: spend
+            description: Link of the template app for iphone
+          - name: unique_clicks
+            description: Link of the template app for iphone
