@@ -1,0 +1,1 @@
+select * from {{ var('client_performance_ads') }}
